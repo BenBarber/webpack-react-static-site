@@ -1,0 +1,23 @@
+@import "../../styles/config";
+
+.header {
+  background: $gray-light;
+
+  .navbar {
+    border-radius: 0;
+  }
+
+  .navbar-brand {
+    padding-top: 7px;
+
+    img {
+      margin-right: 8px;
+      max-height: 28px;
+      display: inline-block;
+
+      @media(min-width: $screen-sm) {
+        max-height: 35px;
+      }
+    }
+  }
+}
